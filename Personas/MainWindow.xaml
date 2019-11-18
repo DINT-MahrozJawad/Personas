@@ -22,7 +22,7 @@
         </ComboBox>
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="El identificador del usuario Seleccionado es: " />
-            <TextBlock x:Name="Identificador" DataContext="{Binding ElementName=Combo, Path=Ie}"></TextBlock>
+            <TextBlock x:Name="Identificador" DataContext="{Binding ElementName=Combo, Path=}"></TextBlock>
         </StackPanel>
     </StackPanel>
 </Window>
